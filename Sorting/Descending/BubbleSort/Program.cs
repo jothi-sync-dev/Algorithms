@@ -30,7 +30,7 @@ public class Program
         {
             for (int j = i + 1; j < array.Length; j++)
             {
-                if (array[j] < array[i])
+                if (array[j] > array[i])
                 {
                     int temp = array[j];
                     array[j] = array[i];
@@ -51,7 +51,7 @@ public class Program
         {
             for (int j = i + 1; j < array.Length; j++)
             {
-                if (array[j].CompareTo(array[i]) < 0)
+                if (array[j].CompareTo(array[i]) > 0)
                 {
                     string temp = array[j];
                     array[j] = array[i];
@@ -71,7 +71,7 @@ public class Program
         {
             for (int j = i + 1; j < array.Length ; j++)
             {
-                if (array[j] < array[i])
+                if (array[j] > array[i])
                 {
                     double temp = array[j];
                     array[j] = array[i];
@@ -91,7 +91,7 @@ public class Program
         {
             for (int j = i + 1; j < array.Length; j++)
             {
-                if (array[j].CompareTo(array[i]) < 0)
+                if (array[j].CompareTo(array[i]) > 0)
                 {
                     char temp = array[j];
                     array[j] = array[i];

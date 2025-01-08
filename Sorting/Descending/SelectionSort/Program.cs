@@ -32,7 +32,7 @@ public class Program
             int min = i;
             for (int j = i + 1; j < array.Length ; j++)
             {
-                if (array[j] < array[min])
+                if (array[j] > array[min])
                 {
                     min = j;
                 }
@@ -55,7 +55,7 @@ public class Program
             int min = i;
             for (int j = i + 1; j < array.Length ; j++)
             {
-                if (array[j].CompareTo(array[min]) < 0)
+                if (array[j].CompareTo(array[min]) > 0)
                 {
                     min = j;
                 }
@@ -78,7 +78,7 @@ public class Program
             int min = i;
             for (int j = i + 1; j < array.Length ; j++)
             {
-                if (array[j].CompareTo(array[min]) < 0)
+                if (array[j].CompareTo(array[min]) > 0)
                 {
                     min = j;
                 }
@@ -101,7 +101,7 @@ public class Program
             int min = i;
             for (int j = i + 1; j < array.Length ; j++)
             {
-                if (array[j] < array[min])
+                if (array[j] > array[min])
                 {
                     min = j;
                 }
